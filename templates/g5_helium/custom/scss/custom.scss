@@ -1,0 +1,334 @@
+/* ---------------------------------------------------------------------------------------------- */
+/* VARIABLES -  Fonts, colors, measurements, animations */
+/* ---------------------------------------------------------------------------------------------- */
+
+/* Color Variables -------------------------------------------------------- */
+
+$red: #c20000;
+$blue: #0c4365;
+$blue-dark: #08324c;
+$gray: #999;
+$black: #000;
+$white: #fff;
+
+/* Fonts -------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i');
+
+h1,h2,h3,h4,h5,h6,p,a,span{
+	font-family: 'Source Sans Pro', sans-serif !important;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: 700 !important;
+}
+p{
+	font-weight: 400 !important;
+}
+h1{
+	font-size: 2.2rem !important;
+	line-height: 2.2rem !important;
+}
+h2{
+	font-size: 1.7rem !important;
+	line-height: 1.9rem !important;
+	margin-bottom: 0.3rem !important;
+}
+h3{
+	font-size: 1.45rem !important;
+	line-height: 1.6rem !important;
+	margin-bottom: 0.3rem !important;
+}
+h4{
+	font-size: 1.2rem !important;
+	line-height: 1.35rem !important;
+	margin-bottom: 0.3rem !important;
+}
+h5{
+	font-size: 0.9rem !important;
+	line-height: 1.5rem !important;
+	margin-bottom: 0 !important;
+}
+h6{
+	font-size: 0.65rem !important;
+	line-height: 1.5rem !important;
+	margin-bottom: 0 !important;
+}
+p{
+	font-size: 0.9rem !important;
+	line-height: 1.5rem !important;
+	margin-top: 0 !important;
+	margin-bottom: 0.9rem;
+}
+span{
+	font-size: 0.9rem !important;
+	line-height: 1.5rem !important;
+}
+ul{
+	margin-top: 0.9rem;
+	margin-bottom: 0.9rem;
+}
+li{
+	font-size: 0.9rem !important;
+	line-height: 1.5rem !important;
+}
+a{
+	color: $blue-dark;
+}
+/* Gray */
+a:hover{
+	color: $gray;
+}
+
+/* ---------------------------------------------------------------------------------------------- */
+/* Tools - Global mix-ins and functions */
+/* ---------------------------------------------------------------------------------------------- */
+
+@import "nucleus/mixins/breakpoints";
+@import "dependencies";
+
+/* ---------------------------------------------------------------------------------------------- */
+/* General - Browser resets/normalize styles, box sizing) */
+/* ---------------------------------------------------------------------------------------------- */
+ 
+#g-header,
+#g-intro,
+#g-feature,
+#g-utility,
+#g-above,
+#g-testimonals,
+#g-expanded,
+#g-mainbar,
+#g-footer{
+	padding-top: 0;
+	padding-bottom: 0;
+ }
+ /* Mobile Fix */
+@media only all and (max-width: 48rem){
+	body {
+	    padding-right: 0;
+	    padding-left: 0;
+	}
+}
+
+
+/* ---------------------------------------------------------------------------------------------- */
+/* Base Elements - Styles for HTML elements */
+/* ---------------------------------------------------------------------------------------------- */
+
+.btn,
+button, 
+button.btn, 
+input[type="submit"],
+input[type="submit"].btn{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 0.8rem;
+	line-height: 0.8rem;
+	font-weight: 700;
+	color: $white;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: none;
+	background: $blue;
+	border-radius: 0.15rem;
+	margin: 1rem 0 1rem;
+	padding: 10px 15px;
+}
+.btn:hover,
+.btn:focus
+button:hover,
+button.btn:hover, 
+input[type="submit"]:hover,
+input[type="submit"].btn:hover{
+	color: $white;
+	background: $gray;
+}
+hr{
+	clear:both;
+}
+
+/* ---------------------------------------------------------------------------------------------- */
+/* Components - Specific components unique to the design, .panel, .form, breadcrumb, nav */
+/* ---------------------------------------------------------------------------------------------- */
+
+/* Main Navigation -------------------------------------------------------- */
+
+/* Nav Container */
+#g-navigation{
+	border-bottom: 3px solid $blue;
+    height:67px;
+}
+#g-navigation .g-content{
+	margin-top: 0;
+	padding-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+#g-navigation .g-menu-parent-indicator{
+	display: none;
+}
+#g-navigation .g-main-nav .g-toplevel > li.active > .g-menu-item-container > .g-menu-item-content{
+	box-shadow: none;
+}
+
+/* Logo */
+#g-navigation ul.g-toplevel{
+	text-align: right;
+}
+/* Toplevel Menu */
+#g-navigation .g-main-nav .g-toplevel > li > .g-menu-item-container{
+	padding: 1.3rem 1rem 1.3rem 0rem;
+	margin: 0;
+	font-size: 0.95rem;
+	line-height: 0.95rem;
+	font-weight: bold;
+}
+#g-navigation .g-main-nav .g-toplevel > li:hover > .g-menu-item-container, 
+#g-navigation .g-main-nav .g-toplevel > li.active > .g-menu-item-container{
+	color: $gray;
+	font-weight: bold;
+	background: rgba(0 0 0 0.2);
+}
+#g-navigation .g-main-nav .g-toplevel > li > .g-menu-item-container > .g-menu-item-content{
+	padding: 0;
+}
+
+/* Sublevel Menu */
+#g-navigation .g-main-nav .g-dropdown{
+	border: none;
+	border-radius: 0;
+	background: none;
+}
+.g-main-nav .g-sublevel > li > .g-menu-item-container{
+	padding: 0;
+	margin: 0;
+}
+.g-main-nav .g-standard > .g-dropdown,
+.g-main-nav .g-fullwidth > .g-dropdown{
+	margin-top: 0;
+}
+.g-main-nav .g-sublevel > li{
+	margin: 0;
+	padding: 10px 10px 10px;
+	background: $blue;
+}
+.g-main-nav .g-sublevel > li:hover{
+	background: $blue-dark;
+	border-color: $blue-dark;
+}
+#g-navigation .g-main-nav .g-dropdown .g-dropdown{
+	margin-left: 0;
+}
+#g-navigation .g-main-nav .g-dropdown-column .g-dropdown{
+	margin-top: 6px;
+}
+#g-navigation .g-main-nav .g-sublevel > li:not(:last-child) > .g-menu-item-container{
+	border: none;
+}
+.g-main-nav .g-sublevel .g-menu-item-title{
+	color: $white;
+}
+.g-main-nav .g-standard .g-dropdown .g-dropdown.g-dropdown-right {
+   right: 100%;
+   left: auto;
+}
+
+/* Off Canvas */
+.g-offcanvas-toggle{
+	position: fixed;
+	top: 0.9rem;
+	color: $blue;
+}
+.g-offcanvas-open .g-offcanvas-toggle{
+	color: $gray;
+}
+#g-offcanvas #g-mobilemenu-container ul > li:not(.g-menu-item-type-particle):not(.g-menu-item-type-module) > .g-menu-item-container{
+	font-weight: bold;
+}
+#g-offcanvas #g-mobilemenu-container ul > li:not(.g-menu-item-type-particle):not(.g-menu-item-type-module).active > .g-menu-item-container,
+#g-offcanvas #g-mobilemenu-container ul > li:not(.g-menu-item-type-particle):not(.g-menu-item-type-module):hover > .g-menu-item-container{
+	background: $white;
+	color: $blue;
+	font-weight: bold;
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------- */
+/* Utilities - Utilities/helper classes that override, only place for !important */
+/* ---------------------------------------------------------------------------------------------- */
+
+/* RSForms Overides -------------------------------------------------------- */
+.esu-form .form-horizontal .control-group{
+	margin-bottom: 0;
+}
+.esu-form .form-horizontal .control-label{
+	float: none;
+	text-align: left;
+	padding-top: 0.75rem;
+	width: 100%;
+}
+.esu-form .form-horizontal .controls{
+	margin-left: 0;
+}
+.rsform-captcha-refresh-button{
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+.formRed,
+.rdd-form .formRequired,
+.formError,
+.control-group.error .control-label,
+.control-group.error .help-block,
+.control-group.error .help-inline{
+	color: $red;
+}
+.formError{
+	font-weight: 400;
+}
+p.formRed{
+	margin-bottom: 0;
+}
+input[type="submit"]{
+	margin-top: 0 !important;
+}
+input[type="color"]:hover, 
+input[type="date"]:hover, 
+input[type="datetime"]:hover, 
+input[type="datetime-local"]:hover, 
+input[type="email"]:hover, 
+input[type="month"]:hover, 
+input[type="number"]:hover, 
+input[type="password"]:hover, 
+input[type="search"]:hover, 
+input[type="tel"]:hover, 
+input[type="text"]:hover, 
+input[type="time"]:hover, 
+input[type="url"]:hover, 
+input[type="week"]:hover, 
+input:not([type]):hover, 
+textarea:hover,
+textarea:focus, 
+input[type="text"]:focus, 
+input[type="password"]:focus, 
+input[type="datetime"]:focus, 
+input[type="datetime-local"]:focus, 
+input[type="date"]:focus, 
+input[type="month"]:focus, 
+input[type="time"]:focus, 
+input[type="week"]:focus, 
+input[type="number"]:focus, 
+input[type="email"]:focus, 
+input[type="url"]:focus, 
+input[type="search"]:focus, 
+input[type="tel"]:focus, 
+input[type="color"]:focus, 
+.uneditable-input:focus{
+    border-color: rgba(12, 67, 101, 0.4);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(12, 67, 101, 0.3);
+}
+
+
+
+
+
+
