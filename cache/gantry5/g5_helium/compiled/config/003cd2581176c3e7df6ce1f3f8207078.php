@@ -1,24 +1,24 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1506810368,
-    'checksum' => '3023771f5a637c93895312bfc98b745a',
+    'timestamp' => 1508337168,
+    'checksum' => '956e631eafc86706ac91071e8e508977',
     'files' => [
         'templates/g5_helium/custom/config/9' => [
             'index' => [
                 'file' => 'templates/g5_helium/custom/config/9/index.yaml',
-                'modified' => 1506809269
+                'modified' => 1508275210
             ],
             'layout' => [
                 'file' => 'templates/g5_helium/custom/config/9/layout.yaml',
-                'modified' => 1506809269
+                'modified' => 1508275210
             ]
         ]
     ],
     'data' => [
         'index' => [
             'name' => 9,
-            'timestamp' => 1506809269,
+            'timestamp' => 1508275210,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -49,9 +49,6 @@ return [
                 ],
                 'menu' => [
                     'menu-6409' => 'Menu'
-                ],
-                'social' => [
-                    'social-3171' => 'Social'
                 ],
                 'messages' => [
                     'system-messages-7972' => 'System Messages'

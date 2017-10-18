@@ -1,17 +1,17 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1507757051,
-    'checksum' => 'f89ddcd12903691826c4219d5b87bc1d',
+    'timestamp' => 1508337168,
+    'checksum' => 'd139c2ff5c9e359c9be3f2ae5ae878f2',
     'files' => [
         'templates/g5_helium/custom/config/default' => [
             'index' => [
                 'file' => 'templates/g5_helium/custom/config/default/index.yaml',
-                'modified' => 1507664621
+                'modified' => 1508275210
             ],
             'layout' => [
                 'file' => 'templates/g5_helium/custom/config/default/layout.yaml',
-                'modified' => 1507664621
+                'modified' => 1508275210
             ],
             'page/assets' => [
                 'file' => 'templates/g5_helium/custom/config/default/page/assets.yaml',
@@ -27,7 +27,7 @@ return [
             ],
             'styles' => [
                 'file' => 'templates/g5_helium/custom/config/default/styles.yaml',
-                'modified' => 1506810604
+                'modified' => 1508279675
             ]
         ],
         'templates/g5_helium/config/default' => [
@@ -386,8 +386,8 @@ return [
                 'text-color' => '#eceeef'
             ],
             'utility' => [
-                'background' => '#424753',
-                'text-color' => '#ffffff'
+                'background' => '#ffffff',
+                'text-color' => '#444444'
             ],
             'preset' => 'preset1'
         ],
@@ -440,7 +440,7 @@ return [
         ],
         'index' => [
             'name' => 'default',
-            'timestamp' => 1507664621,
+            'timestamp' => 1508275210,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -679,6 +679,9 @@ return [
 </svg>
 ',
                         'class' => ''
+                    ],
+                    'block' => [
+                        'id' => 'site-logo'
                     ]
                 ]
             ]

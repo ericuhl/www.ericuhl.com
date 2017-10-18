@@ -11,6 +11,8 @@ $gray: #999;
 $black: #000;
 $white: #fff;
 
+
+
 /* Fonts -------------------------------------------------------- */
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i');
 
@@ -77,6 +79,10 @@ a{
 a:hover{
 	color: $gray;
 }
+.red,
+.star{
+	color: $red;
+}
 
 /* ---------------------------------------------------------------------------------------------- */
 /* Tools - Global mix-ins and functions */
@@ -118,7 +124,10 @@ a:hover{
 button, 
 button.btn, 
 input[type="submit"],
-input[type="submit"].btn{
+input[type="submit"].btn,
+.btn-primary,
+.login .btn,
+.edit.item-page .btn-toolbar .btn, .pager.pagenav a, p.readmore .btn, .contact .form-actions .btn, #contact-form .controls .btn-primary.validate, .profile .btn, .login .btn, .logout .btn, .registration .btn, .profile-edit .btn, .remind .btn, .reset .btn, .search #searchForm .btn, .finder #searchForm .btn, .search #search-form .btn, .finder #search-form .btn{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 0.8rem;
 	line-height: 0.8rem;
@@ -137,7 +146,9 @@ input[type="submit"].btn{
 button:hover,
 button.btn:hover, 
 input[type="submit"]:hover,
-input[type="submit"].btn:hover{
+input[type="submit"].btn:hover,
+.btn-primary:hover,
+.login .btn{
 	color: $white;
 	background: $gray;
 }
@@ -172,6 +183,14 @@ hr{
 /* Logo */
 #g-navigation ul.g-toplevel{
 	text-align: right;
+}
+#site-logo div{
+	padding-top: 12px !important;
+}
+@media only all and (max-width: 48rem){
+	#site-logo div{
+		text-align: center;
+	}
 }
 /* Toplevel Menu */
 #g-navigation .g-main-nav .g-toplevel > li > .g-menu-item-container{
@@ -255,6 +274,52 @@ hr{
 /* ---------------------------------------------------------------------------------------------- */
 /* Utilities - Utilities/helper classes that override, only place for !important */
 /* ---------------------------------------------------------------------------------------------- */
+
+/* Login/Registration Form -------------------------------------------------------- */
+.login{
+	max-width: 300px;
+	margin: auto;
+}
+.registration{
+	max-width: 500px;
+	margin: auto;
+}
+.login form,
+.registration form{
+	background: none;
+	box-shadow: none;
+}
+.login .controls,
+.registration .controls{
+	margin-left: 0;
+}
+.login .control-label,
+.registration .control-label{
+	text-align: left;
+	font-size: 0.9rem;
+	line-height: 1.5rem;
+	padding-top: 0;
+}
+.login .btn{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.registration .btn{
+	margin-bottom: 0;
+}
+.login-page .nav{
+	text-align: center;
+}
+.login-page .nav a{
+	padding-top: 0px;
+	padding-bottom: 10px;
+	font-size: 0.75rem;
+	line-height: 0.75rem;
+}
+.register-page legend{
+	margin-bottom: 0;
+	color: $blue;
+}
 
 /* RSForms Overides -------------------------------------------------------- */
 .esu-form .form-horizontal .control-group{

@@ -1,8 +1,8 @@
 <?php
 return [
     'file' => 'gantry-theme://css-compiled/helium__error.css',
-    'timestamp' => 1506810606,
-    'md5' => 'b44efa5c9c6850d94dc53784ac441436',
+    'timestamp' => 1508332359,
+    'md5' => '2af58dd3e94e811803cfb983188f2c13',
     'variables' => [
         'above-background' => '#f4f5f7',
         'above-text-color' => '#424753',
@@ -44,8 +44,8 @@ return [
         'testimonials-background-image' => '\'gantry-media://testimonials/img01.jpg\'',
         'testimonials-background-overlay' => '\'enabled\'',
         'testimonials-text-color' => '#eceeef',
-        'utility-background' => '#424753',
-        'utility-text-color' => '#ffffff',
+        'utility-background' => '#ffffff',
+        'utility-text-color' => '#444444',
         'preset' => '\'preset1\''
     ],
     'imports' => [

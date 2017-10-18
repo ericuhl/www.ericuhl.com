@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/ericuhl/Sites/esu/templates/g5_helium/custom/config/default/layout.yaml',
-    'modified' => 1507664621,
+    'modified' => 1508337184,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -162,7 +162,6 @@ return [
             'logo-9608' => [
                 'title' => 'Logo / Image',
                 'attributes' => [
-                    'url' => 'www.ericuhl.com',
                     'svg' => '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="125" height="41" viewBox="0 0 1000 327">
   <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
 <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
@@ -196,6 +195,9 @@ return [
 </svg>
 ',
                     'class' => ''
+                ],
+                'block' => [
+                    'id' => 'site-logo'
                 ]
             ]
         ]

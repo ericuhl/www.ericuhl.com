@@ -1,27 +1,27 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1507664624,
-    'checksum' => '17b2ec45dd58993ccac1e9beffb7f661',
+    'timestamp' => 1508337187,
+    'checksum' => '13f1914fab8a563d5993ef81965000f4',
     'files' => [
         'templates/g5_helium/custom/config/9' => [
             'index' => [
                 'file' => 'templates/g5_helium/custom/config/9/index.yaml',
-                'modified' => 1507664621
+                'modified' => 1508337184
             ],
             'layout' => [
                 'file' => 'templates/g5_helium/custom/config/9/layout.yaml',
-                'modified' => 1507664621
+                'modified' => 1508337184
             ]
         ],
         'templates/g5_helium/custom/config/default' => [
             'index' => [
                 'file' => 'templates/g5_helium/custom/config/default/index.yaml',
-                'modified' => 1507664621
+                'modified' => 1508337184
             ],
             'layout' => [
                 'file' => 'templates/g5_helium/custom/config/default/layout.yaml',
-                'modified' => 1507664621
+                'modified' => 1508337184
             ],
             'page/assets' => [
                 'file' => 'templates/g5_helium/custom/config/default/page/assets.yaml',
@@ -37,7 +37,7 @@ return [
             ],
             'styles' => [
                 'file' => 'templates/g5_helium/custom/config/default/styles.yaml',
-                'modified' => 1506810604
+                'modified' => 1508279675
             ]
         ],
         'templates/g5_helium/config/default' => [
@@ -396,8 +396,8 @@ return [
                 'text-color' => '#eceeef'
             ],
             'utility' => [
-                'background' => '#424753',
-                'text-color' => '#ffffff'
+                'background' => '#ffffff',
+                'text-color' => '#444444'
             ],
             'preset' => 'preset1'
         ],
@@ -450,7 +450,7 @@ return [
         ],
         'index' => [
             'name' => 9,
-            'timestamp' => 1507664621,
+            'timestamp' => 1508337184,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -731,7 +731,6 @@ return [
                 'logo-9608' => [
                     'title' => 'Logo / Image',
                     'attributes' => [
-                        'url' => 'www.ericuhl.com',
                         'svg' => '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="125" height="41" viewBox="0 0 1000 327">
   <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
 <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
@@ -765,6 +764,9 @@ return [
 </svg>
 ',
                         'class' => ''
+                    ],
+                    'block' => [
+                        'id' => 'site-logo'
                     ]
                 ]
             ]

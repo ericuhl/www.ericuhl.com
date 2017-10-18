@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/ericuhl/Sites/esu/templates/g5_helium/custom/config/10/layout.yaml',
-    'modified' => 1507664595,
+    'modified' => 1508337183,
     'data' => [
         'version' => 2,
         'preset' => [

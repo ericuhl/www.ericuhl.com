@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1506810606,
-    'checksum' => 'ad0690bb9afd37726b6b41adc6b28ca5',
+    'timestamp' => 1508337186,
+    'checksum' => '89b36c145724c2f3828caada10b7ca92',
     'files' => [
         'templates/g5_helium/custom/config/_error' => [
             'index' => [
@@ -17,27 +17,27 @@ return [
         'templates/g5_helium/custom/config/default' => [
             'index' => [
                 'file' => 'templates/g5_helium/custom/config/default/index.yaml',
-                'modified' => 1506809269
+                'modified' => 1508337184
             ],
             'layout' => [
                 'file' => 'templates/g5_helium/custom/config/default/layout.yaml',
-                'modified' => 1506809269
+                'modified' => 1508337184
             ],
             'page/assets' => [
                 'file' => 'templates/g5_helium/custom/config/default/page/assets.yaml',
-                'modified' => 1506810378
+                'modified' => 1506810777
             ],
             'page/body' => [
                 'file' => 'templates/g5_helium/custom/config/default/page/body.yaml',
-                'modified' => 1506810378
+                'modified' => 1506810777
             ],
             'page/head' => [
                 'file' => 'templates/g5_helium/custom/config/default/page/head.yaml',
-                'modified' => 1506810378
+                'modified' => 1506810777
             ],
             'styles' => [
                 'file' => 'templates/g5_helium/custom/config/default/styles.yaml',
-                'modified' => 1506810604
+                'modified' => 1508279675
             ]
         ],
         'templates/g5_helium/config/default' => [
@@ -396,8 +396,8 @@ return [
                 'text-color' => '#eceeef'
             ],
             'utility' => [
-                'background' => '#424753',
-                'text-color' => '#ffffff'
+                'background' => '#ffffff',
+                'text-color' => '#444444'
             ],
             'preset' => 'preset1'
         ],
@@ -440,7 +440,7 @@ return [
                         'attributes' => [
                             'enabled' => '1',
                             'cssselector' => '#g-navigation',
-                            'mobile' => 'disable',
+                            'mobile' => 'enable',
                             'secondtrigger' => '0',
                             'secondoffset' => ''
                         ]

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/ericuhl/Sites/esu/templates/g5_helium/custom/config/default/styles.yaml',
-    'modified' => 1506810604,
+    'modified' => 1508279675,
     'data' => [
         'preset' => 'preset1',
         'base' => [
@@ -40,8 +40,8 @@ return [
             'text-color' => '#424753'
         ],
         'utility' => [
-            'background' => '#424753',
-            'text-color' => '#ffffff'
+            'background' => '#ffffff',
+            'text-color' => '#444444'
         ],
         'above' => [
             'background' => '#f4f5f7',

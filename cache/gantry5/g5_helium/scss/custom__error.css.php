@@ -1,8 +1,8 @@
 <?php
 return [
     'file' => 'gantry-theme://css-compiled/custom__error.css',
-    'timestamp' => 1506810607,
-    'md5' => '94af4fa90d2206e2328812236adb93d8',
+    'timestamp' => 1508337125,
+    'md5' => '7645906357bc3cc7a132cd36ef253ad0',
     'variables' => [
         'above-background' => '#f4f5f7',
         'above-text-color' => '#424753',
@@ -44,12 +44,12 @@ return [
         'testimonials-background-image' => '\'gantry-media://testimonials/img01.jpg\'',
         'testimonials-background-overlay' => '\'enabled\'',
         'testimonials-text-color' => '#eceeef',
-        'utility-background' => '#424753',
-        'utility-text-color' => '#ffffff',
+        'utility-background' => '#ffffff',
+        'utility-text-color' => '#444444',
         'preset' => '\'preset1\''
     ],
     'imports' => [
-        'gantry-theme://scss/custom.scss' => 1506810520,
+        'gantry-theme://scss/custom.scss' => 1508336870,
         'gantry-engine://scss/nucleus/mixins/_breakpoints.scss' => 1506808771,
         'gantry-theme://scss/_dependencies.scss' => 1506808777,
         'gantry-engine://scss/vendor/bourbon/_bourbon.scss' => 1506808771,

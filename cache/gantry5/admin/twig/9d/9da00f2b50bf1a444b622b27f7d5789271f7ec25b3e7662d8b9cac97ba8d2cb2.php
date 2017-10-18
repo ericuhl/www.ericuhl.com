@@ -103,7 +103,7 @@ class __TwigTemplate_6eb56c12ba83adf0eedf0ce6ef8e2d39359dd03636ffa8c0688ab82a6b3
                     </li>
                     ";
         // line 40
-        if (((($context["configuration"] ?? null) && (($context["configuration"] ?? null) != "default")) &&  !(is_string($__internal_65f2a8cc45dd36edf944262646cea9837883c186e26117185d9711dd200f9283 = ($context["configuration"] ?? null)) && is_string($__internal_e9383ac3e6dea0300437cf0f9fda8d9cbd7e46aeb8b1425975f29751b62bd229 = "_") && ('' === $__internal_e9383ac3e6dea0300437cf0f9fda8d9cbd7e46aeb8b1425975f29751b62bd229 || 0 === strpos($__internal_65f2a8cc45dd36edf944262646cea9837883c186e26117185d9711dd200f9283, $__internal_e9383ac3e6dea0300437cf0f9fda8d9cbd7e46aeb8b1425975f29751b62bd229))))) {
+        if (((($context["configuration"] ?? null) && (($context["configuration"] ?? null) != "default")) &&  !(is_string($__internal_99ccc504b1dff133385660c00235657e8dda5463cfd03f3f7f82d6e550424cab = ($context["configuration"] ?? null)) && is_string($__internal_b21d6f6f02b2ac3fc05a4b44c2557a9c06def077e3262d92f1e06b3b64d1400b = "_") && ('' === $__internal_b21d6f6f02b2ac3fc05a4b44c2557a9c06def077e3262d92f1e06b3b64d1400b || 0 === strpos($__internal_99ccc504b1dff133385660c00235657e8dda5463cfd03f3f7f82d6e550424cab, $__internal_b21d6f6f02b2ac3fc05a4b44c2557a9c06def077e3262d92f1e06b3b64d1400b))))) {
             // line 41
             echo "                    <li ";
             echo (((($context["location"] ?? null) == "configurations/assignments")) ? ("class=\"active\"") : (""));

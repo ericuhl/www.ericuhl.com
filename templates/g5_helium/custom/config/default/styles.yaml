@@ -26,8 +26,8 @@ features:
   background: '#ffffff'
   text-color: '#424753'
 utility:
-  background: '#424753'
-  text-color: '#ffffff'
+  background: '#ffffff'
+  text-color: '#444444'
 above:
   background: '#f4f5f7'
   text-color: '#424753'
