@@ -393,7 +393,13 @@ input[type="color"]:focus,
 }
 
 
+/*Contact form */
+#contact.esu-form{
+	max-width: 700px;
+	margin: auto;
+}
 
-
-
+.register-page div.popover{
+	display: none !important;
+}
 

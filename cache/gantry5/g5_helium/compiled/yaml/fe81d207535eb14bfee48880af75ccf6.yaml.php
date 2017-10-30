@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/ericuhl/Sites/esu/templates/g5_helium/particles/copyright.yaml',
-    'modified' => 1506808777,
+    'modified' => 1508357921,
     'data' => [
         'name' => 'Copyright',
         'description' => 'Display copyright information.',

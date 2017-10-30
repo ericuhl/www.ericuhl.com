@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/ericuhl/Sites/esu/templates/g5_helium/particles/contenttabs.yaml',
-    'modified' => 1506808777,
+    'modified' => 1508357921,
     'data' => [
         'name' => 'Content Tabs',
         'description' => 'Displays Content Tabs.',

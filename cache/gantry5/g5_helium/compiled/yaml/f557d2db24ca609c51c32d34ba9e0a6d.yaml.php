@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/ericuhl/Sites/esu/media/gantry5/engines/nucleus/particles/logo.yaml',
-    'modified' => 1506808771,
+    'modified' => 1508357924,
     'data' => [
         'name' => 'Logo / Image',
         'description' => 'Display a logo or an image.',

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/ericuhl/Sites/esu/templates/g5_helium/blueprints/styles/features.yaml',
-    'modified' => 1506808777,
+    'modified' => 1508357921,
     'data' => [
         'name' => 'Features Styles',
         'description' => 'Features section styles for the Helium theme',

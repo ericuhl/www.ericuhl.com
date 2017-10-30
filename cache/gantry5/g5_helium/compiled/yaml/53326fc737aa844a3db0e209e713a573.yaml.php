@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/ericuhl/Sites/esu/templates/g5_helium/config/default/page/body.yaml',
-    'modified' => 1506808777,
+    'modified' => 1508357921,
     'data' => [
         'doctype' => 'html',
         'attribs' => [

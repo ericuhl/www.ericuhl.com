@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/ericuhl/Sites/esu/media/gantry5/engines/nucleus/particles/analytics.yaml',
-    'modified' => 1506808771,
+    'modified' => 1508357924,
     'data' => [
         'name' => 'Google Analytics',
         'description' => 'Configure Google Analytics.',

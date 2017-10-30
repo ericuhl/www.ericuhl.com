@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/ericuhl/Sites/esu/media/gantry5/engines/nucleus/particles/social.yaml',
-    'modified' => 1506808771,
+    'modified' => 1508357924,
     'data' => [
         'name' => 'Social',
         'description' => 'Display social buttons.',

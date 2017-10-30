@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/ericuhl/Sites/esu/templates/g5_helium/gantry/presets.yaml',
-    'modified' => 1506808777,
+    'modified' => 1508357921,
     'data' => [
         'preset1' => [
             'image' => 'gantry-admin://images/preset1.png',

@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1508337187,
-    'checksum' => '13f1914fab8a563d5993ef81965000f4',
+    'timestamp' => 1508378081,
+    'checksum' => '8c19055f3acad675de0257d4ba3eb648',
     'files' => [
         'templates/g5_helium/custom/config/9' => [
             'index' => [
@@ -43,27 +43,27 @@ return [
         'templates/g5_helium/config/default' => [
             'page/body' => [
                 'file' => 'templates/g5_helium/config/default/page/body.yaml',
-                'modified' => 1506808777
+                'modified' => 1508357921
             ],
             'particles/branding' => [
                 'file' => 'templates/g5_helium/config/default/particles/branding.yaml',
-                'modified' => 1506808777
+                'modified' => 1508357921
             ],
             'particles/copyright' => [
                 'file' => 'templates/g5_helium/config/default/particles/copyright.yaml',
-                'modified' => 1506808777
+                'modified' => 1508357921
             ],
             'particles/logo' => [
                 'file' => 'templates/g5_helium/config/default/particles/logo.yaml',
-                'modified' => 1506808777
+                'modified' => 1508357921
             ],
             'particles/social' => [
                 'file' => 'templates/g5_helium/config/default/particles/social.yaml',
-                'modified' => 1506808777
+                'modified' => 1508357921
             ],
             'particles/totop' => [
                 'file' => 'templates/g5_helium/config/default/particles/totop.yaml',
-                'modified' => 1506808777
+                'modified' => 1508357921
             ]
         ]
     ],
