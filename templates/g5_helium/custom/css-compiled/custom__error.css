@@ -14,85 +14,85 @@
 /* ---------------------------------------------------------------------------------------------- */
 /* Color Variables -------------------------------------------------------- */
 /* Fonts -------------------------------------------------------- */
-/* line 19, templates/g5_helium/custom/scss/custom.scss */
+/* line 18, templates/g5_helium/custom/scss/custom.scss */
 h1, h2, h3, h4, h5, h6, p, a, span {
   font-family: 'Source Sans Pro', sans-serif !important;
 }
-/* line 22, templates/g5_helium/custom/scss/custom.scss */
+/* line 21, templates/g5_helium/custom/scss/custom.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700 !important;
 }
-/* line 25, templates/g5_helium/custom/scss/custom.scss */
+/* line 24, templates/g5_helium/custom/scss/custom.scss */
 p {
   font-weight: 400 !important;
 }
-/* line 28, templates/g5_helium/custom/scss/custom.scss */
+/* line 27, templates/g5_helium/custom/scss/custom.scss */
 h1 {
   font-size: 2.2rem !important;
   line-height: 2.2rem !important;
 }
-/* line 32, templates/g5_helium/custom/scss/custom.scss */
+/* line 31, templates/g5_helium/custom/scss/custom.scss */
 h2 {
   font-size: 1.7rem !important;
   line-height: 1.9rem !important;
   margin-bottom: 0.3rem !important;
 }
-/* line 37, templates/g5_helium/custom/scss/custom.scss */
+/* line 36, templates/g5_helium/custom/scss/custom.scss */
 h3 {
   font-size: 1.45rem !important;
   line-height: 1.6rem !important;
   margin-bottom: 0.3rem !important;
 }
-/* line 42, templates/g5_helium/custom/scss/custom.scss */
+/* line 41, templates/g5_helium/custom/scss/custom.scss */
 h4 {
   font-size: 1.2rem !important;
   line-height: 1.35rem !important;
   margin-bottom: 0.3rem !important;
 }
-/* line 47, templates/g5_helium/custom/scss/custom.scss */
+/* line 46, templates/g5_helium/custom/scss/custom.scss */
 h5 {
   font-size: 0.9rem !important;
   line-height: 1.5rem !important;
   margin-bottom: 0 !important;
 }
-/* line 52, templates/g5_helium/custom/scss/custom.scss */
+/* line 51, templates/g5_helium/custom/scss/custom.scss */
 h6 {
   font-size: 0.65rem !important;
   line-height: 1.5rem !important;
   margin-bottom: 0 !important;
 }
-/* line 57, templates/g5_helium/custom/scss/custom.scss */
+/* line 56, templates/g5_helium/custom/scss/custom.scss */
 p {
   font-size: 0.9rem !important;
   line-height: 1.5rem !important;
   margin-top: 0 !important;
   margin-bottom: 0.9rem;
 }
-/* line 63, templates/g5_helium/custom/scss/custom.scss */
+/* line 62, templates/g5_helium/custom/scss/custom.scss */
 span {
   font-size: 0.9rem !important;
   line-height: 1.5rem !important;
 }
-/* line 67, templates/g5_helium/custom/scss/custom.scss */
+/* line 66, templates/g5_helium/custom/scss/custom.scss */
 ul {
   margin-top: 0.9rem;
   margin-bottom: 0.9rem;
 }
-/* line 71, templates/g5_helium/custom/scss/custom.scss */
+/* line 70, templates/g5_helium/custom/scss/custom.scss */
 li {
   font-size: 0.9rem !important;
   line-height: 1.5rem !important;
 }
-/* line 75, templates/g5_helium/custom/scss/custom.scss */
+/* line 74, templates/g5_helium/custom/scss/custom.scss */
 a {
   color: #08324c;
 }
 /* Gray */
-/* line 79, templates/g5_helium/custom/scss/custom.scss */
+/* line 78, templates/g5_helium/custom/scss/custom.scss */
 a:hover {
   color: #999;
 }
-/* line 82, templates/g5_helium/custom/scss/custom.scss */
+/* line 81, templates/g5_helium/custom/scss/custom.scss */
 .red, .star {
   color: #c20000;
 }
@@ -106,14 +106,14 @@ a:hover {
 /* ---------------------------------------------------------------------------------------------- */
 /* General - Browser resets/normalize styles, box sizing) */
 /* ---------------------------------------------------------------------------------------------- */
-/* line 98, templates/g5_helium/custom/scss/custom.scss */
+/* line 97, templates/g5_helium/custom/scss/custom.scss */
 #g-header, #g-intro, #g-feature, #g-utility, #g-above, #g-testimonals, #g-expanded, #g-mainbar, #g-footer {
   padding-top: 0;
   padding-bottom: 0;
 }
 /* Mobile Fix */
 @media only all and (max-width: 48rem) {
-  /* line 112, templates/g5_helium/custom/scss/custom.scss */
+  /* line 111, templates/g5_helium/custom/scss/custom.scss */
   body {
     padding-right: 0;
     padding-left: 0;
@@ -122,7 +122,7 @@ a:hover {
 /* ---------------------------------------------------------------------------------------------- */
 /* Base Elements - Styles for HTML elements */
 /* ---------------------------------------------------------------------------------------------- */
-/* line 123, templates/g5_helium/custom/scss/custom.scss */
+/* line 121, templates/g5_helium/custom/scss/custom.scss */
 .btn, button, button.btn, input[type="submit"], input[type="submit"].btn, .btn-primary, .login .btn, .edit.item-page .btn-toolbar .btn, .pager.pagenav a, p.readmore .btn, .contact .form-actions .btn, #contact-form .controls .btn-primary.validate, .profile .btn, .login .btn, .logout .btn, .registration .btn, .profile-edit .btn, .remind .btn, .reset .btn, .search #searchForm .btn, .finder #searchForm .btn, .search #search-form .btn, .finder #search-form .btn {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 0.8rem;
@@ -137,57 +137,62 @@ a:hover {
   margin: 1rem 0 1rem;
   padding: 10px 15px;
 }
-/* line 144, templates/g5_helium/custom/scss/custom.scss */
+/* line 142, templates/g5_helium/custom/scss/custom.scss */
 .btn:hover, .btn:focus button:hover, button.btn:hover, input[type="submit"]:hover, input[type="submit"].btn:hover, .btn-primary:hover, .login .btn {
   color: #fff;
   background: #999;
 }
-/* line 155, templates/g5_helium/custom/scss/custom.scss */
+/* line 153, templates/g5_helium/custom/scss/custom.scss */
 hr {
   clear: both;
+}
+/* Frontend Edit Button */
+/* line 157, templates/g5_helium/custom/scss/custom.scss */
+.icons .btn-group .btn {
+  margin-top: 0 !important;
 }
 /* ---------------------------------------------------------------------------------------------- */
 /* Components - Specific components unique to the design, .panel, .form, breadcrumb, nav */
 /* ---------------------------------------------------------------------------------------------- */
 /* Main Navigation -------------------------------------------------------- */
-/* Nav Container */
-/* line 166, templates/g5_helium/custom/scss/custom.scss */
+/* Container */
+/* line 169, templates/g5_helium/custom/scss/custom.scss */
 #g-navigation {
   border-bottom: 3px solid #0c4365;
   height: 67px;
 }
-/* line 170, templates/g5_helium/custom/scss/custom.scss */
+/* line 173, templates/g5_helium/custom/scss/custom.scss */
 #g-navigation .g-content {
   margin-top: 0;
   padding-top: 0;
   margin-bottom: 0;
   padding-bottom: 0;
 }
-/* line 176, templates/g5_helium/custom/scss/custom.scss */
+/* line 179, templates/g5_helium/custom/scss/custom.scss */
 #g-navigation .g-menu-parent-indicator {
   display: none;
 }
-/* line 179, templates/g5_helium/custom/scss/custom.scss */
+/* line 182, templates/g5_helium/custom/scss/custom.scss */
 #g-navigation .g-main-nav .g-toplevel > li.active > .g-menu-item-container > .g-menu-item-content {
   box-shadow: none;
 }
 /* Logo */
-/* line 184, templates/g5_helium/custom/scss/custom.scss */
+/* line 187, templates/g5_helium/custom/scss/custom.scss */
 #g-navigation ul.g-toplevel {
   text-align: right;
 }
-/* line 187, templates/g5_helium/custom/scss/custom.scss */
+/* line 190, templates/g5_helium/custom/scss/custom.scss */
 #site-logo div {
   padding-top: 12px !important;
 }
 @media only all and (max-width: 48rem) {
-  /* line 191, templates/g5_helium/custom/scss/custom.scss */
+  /* line 194, templates/g5_helium/custom/scss/custom.scss */
   #site-logo div {
     text-align: center;
   }
 }
 /* Toplevel Menu */
-/* line 196, templates/g5_helium/custom/scss/custom.scss */
+/* line 199, templates/g5_helium/custom/scss/custom.scss */
 #g-navigation .g-main-nav .g-toplevel > li > .g-menu-item-container {
   padding: 1.3rem 1rem 1.3rem 0rem;
   margin: 0;
@@ -195,80 +200,80 @@ hr {
   line-height: 0.95rem;
   font-weight: bold;
 }
-/* line 203, templates/g5_helium/custom/scss/custom.scss */
+/* line 206, templates/g5_helium/custom/scss/custom.scss */
 #g-navigation .g-main-nav .g-toplevel > li:hover > .g-menu-item-container, #g-navigation .g-main-nav .g-toplevel > li.active > .g-menu-item-container {
   color: #999;
   font-weight: bold;
   background: rgba(0, 0, 0, );
 }
-/* line 209, templates/g5_helium/custom/scss/custom.scss */
+/* line 212, templates/g5_helium/custom/scss/custom.scss */
 #g-navigation .g-main-nav .g-toplevel > li > .g-menu-item-container > .g-menu-item-content {
   padding: 0;
 }
 /* Sublevel Menu */
-/* line 214, templates/g5_helium/custom/scss/custom.scss */
+/* line 217, templates/g5_helium/custom/scss/custom.scss */
 #g-navigation .g-main-nav .g-dropdown {
   border: none;
   border-radius: 0;
   background: none;
 }
-/* line 219, templates/g5_helium/custom/scss/custom.scss */
+/* line 222, templates/g5_helium/custom/scss/custom.scss */
 .g-main-nav .g-sublevel > li > .g-menu-item-container {
   padding: 0;
   margin: 0;
 }
-/* line 223, templates/g5_helium/custom/scss/custom.scss */
+/* line 226, templates/g5_helium/custom/scss/custom.scss */
 .g-main-nav .g-standard > .g-dropdown, .g-main-nav .g-fullwidth > .g-dropdown {
   margin-top: 0;
 }
-/* line 227, templates/g5_helium/custom/scss/custom.scss */
+/* line 230, templates/g5_helium/custom/scss/custom.scss */
 .g-main-nav .g-sublevel > li {
   margin: 0;
   padding: 10px 10px 10px;
   background: #0c4365;
 }
-/* line 232, templates/g5_helium/custom/scss/custom.scss */
+/* line 235, templates/g5_helium/custom/scss/custom.scss */
 .g-main-nav .g-sublevel > li:hover {
   background: #08324c;
   border-color: #08324c;
 }
-/* line 236, templates/g5_helium/custom/scss/custom.scss */
+/* line 239, templates/g5_helium/custom/scss/custom.scss */
 #g-navigation .g-main-nav .g-dropdown .g-dropdown {
   margin-left: 0;
 }
-/* line 239, templates/g5_helium/custom/scss/custom.scss */
+/* line 242, templates/g5_helium/custom/scss/custom.scss */
 #g-navigation .g-main-nav .g-dropdown-column .g-dropdown {
   margin-top: 6px;
 }
-/* line 242, templates/g5_helium/custom/scss/custom.scss */
+/* line 245, templates/g5_helium/custom/scss/custom.scss */
 #g-navigation .g-main-nav .g-sublevel > li:not(:last-child) > .g-menu-item-container {
   border: none;
 }
-/* line 245, templates/g5_helium/custom/scss/custom.scss */
+/* line 248, templates/g5_helium/custom/scss/custom.scss */
 .g-main-nav .g-sublevel .g-menu-item-title {
   color: #fff;
 }
-/* line 248, templates/g5_helium/custom/scss/custom.scss */
+/* line 251, templates/g5_helium/custom/scss/custom.scss */
 .g-main-nav .g-standard .g-dropdown .g-dropdown.g-dropdown-right {
   right: 100%;
   left: auto;
 }
 /* Off Canvas */
-/* line 254, templates/g5_helium/custom/scss/custom.scss */
+/* line 257, templates/g5_helium/custom/scss/custom.scss */
 .g-offcanvas-toggle {
   position: fixed;
-  top: 0.9rem;
+  top: 1.1rem;
   color: #0c4365;
 }
-/* line 259, templates/g5_helium/custom/scss/custom.scss */
+/* line 262, templates/g5_helium/custom/scss/custom.scss */
 .g-offcanvas-open .g-offcanvas-toggle {
   color: #999;
 }
-/* line 262, templates/g5_helium/custom/scss/custom.scss */
+/* line 265, templates/g5_helium/custom/scss/custom.scss */
 #g-offcanvas #g-mobilemenu-container ul > li:not(.g-menu-item-type-particle):not(.g-menu-item-type-module) > .g-menu-item-container {
   font-weight: bold;
 }
-/* line 265, templates/g5_helium/custom/scss/custom.scss */
+/* line 268, templates/g5_helium/custom/scss/custom.scss */
 #g-offcanvas #g-mobilemenu-container ul > li:not(.g-menu-item-type-particle):not(.g-menu-item-type-module).active > .g-menu-item-container, #g-offcanvas #g-mobilemenu-container ul > li:not(.g-menu-item-type-particle):not(.g-menu-item-type-module):hover > .g-menu-item-container {
   background: #fff;
   color: #0c4365;
@@ -277,107 +282,150 @@ hr {
 /* ---------------------------------------------------------------------------------------------- */
 /* Utilities - Utilities/helper classes that override, only place for !important */
 /* ---------------------------------------------------------------------------------------------- */
-/* Login/Registration Form -------------------------------------------------------- */
-/* line 279, templates/g5_helium/custom/scss/custom.scss */
-.login {
-  max-width: 300px;
-  margin: auto;
-}
-/* line 283, templates/g5_helium/custom/scss/custom.scss */
-.registration {
-  max-width: 500px;
-  margin: auto;
-}
-/* line 287, templates/g5_helium/custom/scss/custom.scss */
-.login form, .registration form {
-  background: none;
-  box-shadow: none;
-}
-/* line 292, templates/g5_helium/custom/scss/custom.scss */
-.login .controls, .registration .controls {
-  margin-left: 0;
-}
-/* line 296, templates/g5_helium/custom/scss/custom.scss */
-.login .control-label, .registration .control-label {
-  text-align: left;
-  font-size: 0.9rem;
-  line-height: 1.5rem;
-  padding-top: 0;
-}
-/* line 303, templates/g5_helium/custom/scss/custom.scss */
-.login .btn {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-/* line 307, templates/g5_helium/custom/scss/custom.scss */
-.registration .btn {
-  margin-bottom: 0;
-}
-/* line 310, templates/g5_helium/custom/scss/custom.scss */
-.login-page .nav {
-  text-align: center;
-}
-/* line 313, templates/g5_helium/custom/scss/custom.scss */
-.login-page .nav a {
-  padding-top: 0px;
-  padding-bottom: 10px;
-  font-size: 0.75rem;
-  line-height: 0.75rem;
-}
-/* line 319, templates/g5_helium/custom/scss/custom.scss */
-.register-page legend {
-  margin-bottom: 0;
-  color: #0c4365;
-}
 /* RSForms Overides -------------------------------------------------------- */
-/* line 325, templates/g5_helium/custom/scss/custom.scss */
+/* line 280, templates/g5_helium/custom/scss/custom.scss */
 .esu-form .form-horizontal .control-group {
   margin-bottom: 0;
 }
-/* line 328, templates/g5_helium/custom/scss/custom.scss */
+/* line 283, templates/g5_helium/custom/scss/custom.scss */
 .esu-form .form-horizontal .control-label {
   float: none;
   text-align: left;
   padding-top: 0.75rem;
   width: 100%;
 }
-/* line 334, templates/g5_helium/custom/scss/custom.scss */
+/* line 289, templates/g5_helium/custom/scss/custom.scss */
 .esu-form .form-horizontal .controls {
   margin-left: 0;
 }
-/* line 337, templates/g5_helium/custom/scss/custom.scss */
+/* line 292, templates/g5_helium/custom/scss/custom.scss */
 .rsform-captcha-refresh-button {
   margin-left: 1rem;
   margin-right: 1rem;
 }
-/* line 342, templates/g5_helium/custom/scss/custom.scss */
+/* line 297, templates/g5_helium/custom/scss/custom.scss */
 .formRed, .rdd-form .formRequired, .formError, .control-group.error .control-label, .control-group.error .help-block, .control-group.error .help-inline {
   color: #c20000;
 }
-/* line 350, templates/g5_helium/custom/scss/custom.scss */
+/* line 305, templates/g5_helium/custom/scss/custom.scss */
 .formError {
   font-weight: 400;
 }
-/* line 353, templates/g5_helium/custom/scss/custom.scss */
+/* line 308, templates/g5_helium/custom/scss/custom.scss */
 p.formRed {
   margin-bottom: 0;
 }
-/* line 356, templates/g5_helium/custom/scss/custom.scss */
+/* line 311, templates/g5_helium/custom/scss/custom.scss */
 input[type="submit"] {
   margin-top: 0 !important;
 }
-/* line 359, templates/g5_helium/custom/scss/custom.scss */
+/* line 314, templates/g5_helium/custom/scss/custom.scss */
 input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, input:not([type]):hover, textarea:hover, textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
   border-color: rgba(12, 67, 101, 0.4);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(12, 67, 101, 0.3);
 }
-/*Contact form */
+/* Form specific overrides */
+/* Login/registration */
+/* line 353, templates/g5_helium/custom/scss/custom.scss */
+.login {
+  max-width: 300px;
+  margin: auto;
+}
+/* line 357, templates/g5_helium/custom/scss/custom.scss */
+.registration {
+  max-width: 500px;
+  margin: auto;
+}
+/* line 361, templates/g5_helium/custom/scss/custom.scss */
+.login form, .registration form {
+  background: none;
+  box-shadow: none;
+}
+/* line 366, templates/g5_helium/custom/scss/custom.scss */
+.login .controls, .registration .controls {
+  margin-left: 0;
+}
+/* line 370, templates/g5_helium/custom/scss/custom.scss */
+.login .control-label, .registration .control-label {
+  text-align: left;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  padding-top: 0;
+}
+/* line 377, templates/g5_helium/custom/scss/custom.scss */
+.login .btn {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* line 381, templates/g5_helium/custom/scss/custom.scss */
+.registration .btn {
+  margin-bottom: 0;
+}
+/* line 384, templates/g5_helium/custom/scss/custom.scss */
+.login-page .nav {
+  text-align: center;
+}
+/* line 387, templates/g5_helium/custom/scss/custom.scss */
+.login-page .nav a {
+  padding-top: 0px;
+  padding-bottom: 10px;
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+}
+/* line 393, templates/g5_helium/custom/scss/custom.scss */
+.register-page legend {
+  margin-bottom: 0;
+  color: #0c4365;
+}
 /* line 397, templates/g5_helium/custom/scss/custom.scss */
+.register-page div.popover {
+  display: none !important;
+}
+/* Contact form */
+/* line 402, templates/g5_helium/custom/scss/custom.scss */
 #contact.esu-form {
   max-width: 700px;
   margin: auto;
 }
-/* line 402, templates/g5_helium/custom/scss/custom.scss */
-.register-page div.popover {
-  display: none !important;
+/* Unite Gallery Overides -------------------------------------------------------- */
+/* line 408, templates/g5_helium/custom/scss/custom.scss */
+#unitegallery_2_1_tabs.ug-tabs-wrapper a.ug-tab {
+  margin-left: 10px !important;
+  margin-bottom: 10px;
+}
+/* line 412, templates/g5_helium/custom/scss/custom.scss */
+div.ug-thumb-wrapper {
+  border-color: #efefef !important;
+}
+/* Recipe Book Overides -------------------------------------------------------- */
+/* Recipe Image */
+/* line 424, templates/g5_helium/custom/scss/custom.scss */
+.recipes-page .item-image {
+  display: block;
+  width: 50%;
+}
+@media only all and (max-width: 48rem) {
+  /* line 429, templates/g5_helium/custom/scss/custom.scss */
+  .recipes-page .item-image {
+    width: 100%;
+    margin: 0 auto 1rem;
+  }
+}
+/* Article Info */
+/* line 436, templates/g5_helium/custom/scss/custom.scss */
+.recipes-page .article-info {
+  margin-bottom: 1rem;
+}
+/* line 439, templates/g5_helium/custom/scss/custom.scss */
+.recipes-page dl.article-info dd {
+  display: block;
+}
+/* line 443, templates/g5_helium/custom/scss/custom.scss */
+.recipes-page .filters .btn-group {
+  width: 100%;
+  max-width: 400px;
+}
+/* line 448, templates/g5_helium/custom/scss/custom.scss */
+.recipes-page .filter-search {
+  width: 100%;
 }
