@@ -53,9 +53,13 @@ JFactory::getDocument()->addScriptDeclaration("
 
 				<?php echo $this->form->renderField('title'); ?>
 
-				<?php if (is_null($this->item->id)) : ?>
-					<?php echo $this->form->renderField('alias'); ?>
+				<?php echo $this->form->renderField('catid'); ?>
+				<p>You must select "Recipes" category</p>
+
+				<?php if ($this->item->params->get('access-change')) : ?>
+					<?php echo $this->form->renderField('state'); ?>
 				<?php endif; ?>
+				<p>Note: You can choose to share this recipe now or save it later.</p>
 
 				<?php echo $this->form->getInput('articletext'); ?>
 				<p><b>PLEASE UPLOAD ALL PHOTOS TO THE FOLDER TITLED "recipes"</b></p>
@@ -69,8 +73,6 @@ JFactory::getDocument()->addScriptDeclaration("
 				<?php if ($this->captchaEnabled) : ?>
 					<?php echo $this->form->renderField('captcha'); ?>
 				<?php endif; ?>
-
-		
 
 			<?php if ($params->get('show_urls_images_frontend')) : ?>
 
