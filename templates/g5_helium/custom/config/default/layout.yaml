@@ -22,11 +22,13 @@ layout:
       -
         'aside 5': {  }
       -
-        'mainbar 90':
+        'mainbar 70':
           -
             - system-content-1587
       -
-        'sidebar 5': {  }
+        'sidebar 25':
+          -
+            - position-position-7516
   /footer/: {  }
   /offcanvas/:
     -
@@ -97,3 +99,9 @@ content:
       class: ''
     block:
       id: site-logo
+  position-position-7516:
+    title: Sidebar
+    attributes:
+      key: sidebar
+    block:
+      class: sidebar

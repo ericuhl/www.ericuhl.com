@@ -1,11 +1,12 @@
 name: default
-timestamp: 1508337184
+timestamp: 1509556231
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
   name: default
   timestamp: 1506808777
-positions: {  }
+positions:
+  sidebar: Sidebar
 sections:
   navigation: Navigation
   intro: Intro
@@ -29,6 +30,8 @@ particles:
     system-messages-7972: 'System Messages'
   content:
     system-content-1587: 'Page Content'
+  position:
+    position-position-7516: Sidebar
   mobile-menu:
     mobile-menu-5697: Mobile-menu
 inherit: {  }

@@ -1,27 +1,27 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1508378081,
-    'checksum' => '8c19055f3acad675de0257d4ba3eb648',
+    'timestamp' => 1509556270,
+    'checksum' => 'cf2214182d338118c8c4919385ca5e79',
     'files' => [
         'templates/g5_helium/custom/config/9' => [
             'index' => [
                 'file' => 'templates/g5_helium/custom/config/9/index.yaml',
-                'modified' => 1508337184
+                'modified' => 1509556231
             ],
             'layout' => [
                 'file' => 'templates/g5_helium/custom/config/9/layout.yaml',
-                'modified' => 1508337184
+                'modified' => 1509556231
             ]
         ],
         'templates/g5_helium/custom/config/default' => [
             'index' => [
                 'file' => 'templates/g5_helium/custom/config/default/index.yaml',
-                'modified' => 1508337184
+                'modified' => 1509556231
             ],
             'layout' => [
                 'file' => 'templates/g5_helium/custom/config/default/layout.yaml',
-                'modified' => 1508337184
+                'modified' => 1509556231
             ],
             'page/assets' => [
                 'file' => 'templates/g5_helium/custom/config/default/page/assets.yaml',
@@ -450,7 +450,7 @@ return [
         ],
         'index' => [
             'name' => 9,
-            'timestamp' => 1508337184,
+            'timestamp' => 1509556231,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -767,6 +767,15 @@ return [
                     ],
                     'block' => [
                         'id' => 'site-logo'
+                    ]
+                ],
+                'position-position-7516' => [
+                    'title' => 'Sidebar',
+                    'attributes' => [
+                        'key' => 'sidebar'
+                    ],
+                    'block' => [
+                        'class' => 'sidebar'
                     ]
                 ]
             ]

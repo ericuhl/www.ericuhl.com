@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/ericuhl/Sites/esu/templates/g5_helium/custom/config/default/layout.yaml',
-    'modified' => 1508337184,
+    'modified' => 1509556231,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -48,15 +48,17 @@ return [
                         ]
                     ],
                     1 => [
-                        'mainbar 90' => [
+                        'mainbar 70' => [
                             0 => [
                                 0 => 'system-content-1587'
                             ]
                         ]
                     ],
                     2 => [
-                        'sidebar 5' => [
-                            
+                        'sidebar 25' => [
+                            0 => [
+                                0 => 'position-position-7516'
+                            ]
                         ]
                     ]
                 ]
@@ -198,6 +200,15 @@ return [
                 ],
                 'block' => [
                     'id' => 'site-logo'
+                ]
+            ],
+            'position-position-7516' => [
+                'title' => 'Sidebar',
+                'attributes' => [
+                    'key' => 'sidebar'
+                ],
+                'block' => [
+                    'class' => 'sidebar'
                 ]
             ]
         ]

@@ -38,7 +38,8 @@
     </files>
 
     <positions>
-        <position/>
+        <position>debug</position>
+        <position>sidebar</position>
     </positions>
 
     <config>
