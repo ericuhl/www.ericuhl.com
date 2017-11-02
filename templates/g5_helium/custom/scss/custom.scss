@@ -22,6 +22,10 @@ h1,h2,h3,h4,h5,h6{
 	font-weight: 700 !important;
 }
 p{
+	font-size: 0.9rem !important;
+	line-height: 1.5rem !important;
+	margin-top: 0 !important;
+	margin-bottom: 0.9rem;
 	font-weight: 400 !important;
 }
 h1{
@@ -53,12 +57,7 @@ h6{
 	line-height: 1.5rem !important;
 	margin-bottom: 0 !important;
 }
-p{
-	font-size: 0.9rem !important;
-	line-height: 1.5rem !important;
-	margin-top: 0 !important;
-	margin-bottom: 0.9rem;
-}
+
 
 ul{
 	margin-top: 0.9rem;
@@ -259,6 +258,11 @@ a:hover{
 /* ---------------------------------------------------------------------------------------------- */
 
 /* Joomla Overides -------------------------------------------------------- */
+
+/* Author */
+dl.article-info dd:not(:last-child):after{
+	display: none;
+}
 
 /* buttons */
 .btn{
@@ -549,6 +553,21 @@ dl.article-info dd{
 }
 .recipes-page dl.article-info dd{
 	display: block;
+}
+
+/* Custom fields */
+.recipes-page .fields-container{
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+.recipes-page .fields-container .field-entry {
+	font-size: 0.9rem;
+	line-height: 1.5rem;
+	font-weight: 400;
+	margin: 0;
+}
+.recipes-page .fields-container .field-entry .field-label{
+	font-weight: 700;
 }
 
 /* Article Image */

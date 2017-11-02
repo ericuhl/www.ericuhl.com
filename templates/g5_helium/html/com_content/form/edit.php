@@ -53,23 +53,6 @@ JFactory::getDocument()->addScriptDeclaration("
 
 				<?php echo $this->form->renderField('title'); ?>
 
-				<?php echo $this->form->renderField('catid'); ?>
-				<p>You must select "Recipes" category</p>
-
-				<?php if ($this->item->params->get('access-change')) : ?>
-					<?php echo $this->form->renderField('state'); ?>
-				<?php endif; ?>
-				<p>Note: You can choose to share this recipe now or save it later.</p>
-
-				<?php echo $this->form->getInput('articletext'); ?>
-				<p><b>PLEASE UPLOAD ALL PHOTOS TO THE FOLDER TITLED "recipes"</b></p>
-				<?php echo $this->form->renderField('image_fulltext', 'images'); ?>
-				
-				<?php echo $this->form->renderField('tags'); ?>
-				<?php if ($params->get('save_history', 0)) : ?>
-					<?php echo $this->form->renderField('version_note'); ?>
-				<?php endif; ?>
-
 				<?php if ($this->captchaEnabled) : ?>
 					<?php echo $this->form->renderField('captcha'); ?>
 				<?php endif; ?>
@@ -80,10 +63,33 @@ JFactory::getDocument()->addScriptDeclaration("
 
 			<?php echo JLayoutHelper::render('joomla.edit.params', $this); ?>
 
+			<?php echo $this->form->getInput('articletext'); ?>
+
 			<?php if ($params->get('show_publishing_options', 1) == 1) : ?>	
 				
 			<?php endif; ?>
 
+			<?php echo $this->form->renderField('image_fulltext', 'images'); ?>
+
+			<div style="margin-bottom: 1rem;">
+				<?php echo $this->form->renderField('tags'); ?>
+				<?php if ($params->get('save_history', 0)) : ?>
+					<?php echo $this->form->renderField('version_note'); ?>
+				<?php endif; ?>
+			</div>
+
+			<div class="row-fluid">
+				<div class="span6">
+					<?php echo $this->form->renderField('catid'); ?>
+					<p>You must select "Recipes" category</p>
+				</div>
+				<div class="span6">
+					<?php if ($this->item->params->get('access-change')) : ?>
+						<?php echo $this->form->renderField('state'); ?>
+					<?php endif; ?>
+					<p>Note: You can choose to share this recipe now or save it later.</p>
+				</div>
+			</div>
 
 			<input type="hidden" name="task" value="" />
 			<input type="hidden" name="return" value="<?php echo $this->return_page; ?>" />
